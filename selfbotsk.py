@@ -35,7 +35,7 @@ myProfile = {
 }
 
 helpMessage ="""╔════════════════════ 
-║┈✇✇  sɪʟᴇɴᴛ ᴛᴇᴀᴍ ʙᴏᴛ V'selfbot✇ ✇┈
+║┈✇✇  SANGE ʙᴏᴛ V'selfbot✇ ✇┈
 ╠════════════════════
 ╠⍟➣  ᴍʏ ɪᴅ
 ╠⍟➣  ᴍᴇ
@@ -175,10 +175,10 @@ helpMessage ="""╔════════════════════
 ╠⍟➣ [ɪᴅ/ᴋᴏ] ɪɴᴅ ᴛᴏ ᴋᴏʀ
 ╠⍟➣ [ᴋᴏ/ɪᴅ] ᴋᴏʀ ᴛᴏ ɪɴᴅ
 ╠═══════════════════
-║ SILENT TΣΔM βΩT
+║ NGACENG TERUS BRO
 ╠═══════════════════
-╠⍟➣line://ti/p/~teambotprotect
-╠⍟➣line://ti/p/~dhenz415
+╠⍟➣OPEN VCS GRATIS GELAS
+╠⍟➣line://ti/p/~minumsususapi
 ╚═══════════════════
 """
 
@@ -224,14 +224,14 @@ pro = {
     }
 
 Dhenza = {
-    "comment":"╔═════════════════════\nAuto like by:TBP\n╚══════════════════════",
+    "comment":"╔═════════════════════\nAuto like by:DEKIL\n╚══════════════════════",
     "cctvteks":"Masuk sayang\nUdah keciduk juga",
     "message":"Cieee kepo @!\n╔═════════════════════\nᵀᴴᴬᴺᴷˢ ᶠᴼᴿ ᴬᴰᴰ ᴹᴱ\n╚══════════════════════",
-    "welmsg":"╔═════════════════════\nSILENT TΣΔM βΩT\n╚══════════════════════",
-    "leftmsg":"╔═════════════════════\nSILENT TΣΔM βΩT\n╚══════════════════════",
-    "tagteks1":"Tag mau minta jajan ya",
-    "tagteks2":"iya syang",
-    "tagteks3":"kangen ya//-.."
+    "welmsg":"╔═════════════════════\nSANGE βΩT\n╚══════════════════════",
+    "leftmsg":"╔═════════════════════\nSANGE βΩT\n╚══════════════════════",
+    "tagteks1":"Tag mau minta vcs ya",
+    "tagteks2":"iya jembut",
+    "tagteks3":"sange ya//-.."
 	}
 
 resp = {
@@ -379,7 +379,7 @@ def dhenzaBot(op):
                             print ("error")
             else:
                 pass
-#======================[ PROTECT CANCLE ]=================
+#======================[ PROTECT CANCEL ]=================
         if op.type == 32:
             if op.param1 in pro["Protectcancl"]:
                 if op.param2 in org["Friend"]:
@@ -607,7 +607,7 @@ def dhenzaBot(op):
                             wait["dsilent"]=False
                     else:
                         pass
-#=====================[ SEPAM ]========================
+#=====================[ SPAM ]========================
                 if msg.contentType == 13:
                     if wait["getmid"]==True:
                         x = msg.contentMetadata["mid"]
