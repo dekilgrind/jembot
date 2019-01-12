@@ -2,7 +2,7 @@
     "restartPoint": {},
     "restartBot": {},
     "userAgent": {},
-    "keyCommand": "cok",
+    "keyCommand": "",
     "autoAdd": true,
     "autoJoin": true,
     "autoReject": false,
