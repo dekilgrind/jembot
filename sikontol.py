@@ -35,7 +35,7 @@ myProfile = {
 }
 
 helpMessage ="""╔════════════════════ 
-║┈✇✇  DEKIL NOOB  ✇✇┈
+║┈✇✇  SIKONTOL BOT  ✇✇┈
 ╠════════════════════
 ╠⍟➣  ᴍʏ ɪᴅ
 ╠⍟➣  ᴍᴇ
@@ -177,7 +177,7 @@ helpMessage ="""╔════════════════════
 ╠═══════════════════
 ║  SPACE IKLAN HUB 😬 👇
 ╠═══════════════════
-╠⍟➣OPEN VCS GRATIS GELAS
+╠⍟➣AHLI TAMBAH DOSA
 ╠⍟➣line://ti/p/~minumsususapi
 ╚═══════════════════
 """
@@ -194,8 +194,8 @@ wait = {
     "asilent":False,
     "dsilent":False,
     "santet":True,
-    "Autojoin":False,
-    "Timeline":False,
+    "Autojoin":True,
+    "Timeline":True,
     "LikeOn":True,
     "getmid":False,
     "mimic":False,
@@ -226,11 +226,11 @@ pro = {
 Dhenza = {
     "comment":"╔═════════════════════\nAuto like by:DEKIL\n╚══════════════════════",
     "cctvteks":"Masuk cuy\nUdah keciduk",
-    "message":"Ada apa cuy @!\n╔═════════════════════\nᵀᴴᴬᴺᴷˢ ᶠᴼᴿ ᴬᴰᴰ ᴹᴱ\n╚══════════════════════",
-    "welmsg":"╔═════════════════════\nSANGE βΩT\n╚══════════════════════",
-    "leftmsg":"╔═════════════════════\nSANGE βΩT\n╚══════════════════════",
-    "tagteks1":"aye aye",
-    "tagteks2":"iya jembut",
+    "message":"Oit @!\n╔═════════════════════\nᵀᴴᴬᴺᴷˢ ᶠᴼᴿ ᴬᴰᴰ ᴹᴱ\n╚══════════════════════",
+    "welmsg":"╔═════════════════════\nSIKONTOL\n╚══════════════════════",
+    "leftmsg":"╔═════════════════════\nSIKONTOL\n╚══════════════════════",
+    "tagteks1":"Jangan Tag Tag",
+    "tagteks2":"jembut",
     "tagteks3":"sange ya//-.."
 	}
 
@@ -1308,7 +1308,7 @@ def dhenzaBot(op):
                                 hasil += "\nJudul : {}".format(str(info["judul"]))                    
                                 dz.sendImageWithURL(msg.to, str(data["gambar"]))
                                 dz.sendMessage(msg.to, str(hasil))
-                                dz.sendMessage(msg.to, "Sabar boaku")
+                                dz.sendMessage(msg.to, "Sabar bosku")
                                 dz.sendAudioWithURL(msg.to, str(audio["mp3"]))                    
                                 dz.sendMessage(msg.to, str(data["lirik"]))
                             except Exception as error:
@@ -1538,7 +1538,7 @@ def dhenzaBot(op):
                     json.dump(pro, fp, sort_keys=True, indent=4)
                 dz.sendMessage(msg.to,"ᴀʟʟ sᴇᴛ ᴄʟᴇᴀʀ")
             elif msg.text in ["Set"]:
-                md = "╔════════════════════\n╠➣SILENT TΣΔM βΩT\n╠════════════════════\n"
+                md = "╔════════════════════\n╠➣SIKONTOL\n╠════════════════════\n"
                 if msg.to in pro["intaPoint"]: md+="╠➣ᴀᴜᴛᴏ ɪɴ : ✔\n"
                 else: md +="╠➣ᴀᴜᴛᴏ ɪɴ : ❌\n"
 				
@@ -1572,7 +1572,7 @@ def dhenzaBot(op):
                     json.dump(wait, fp, sort_keys=True, indent=4)
                 dz.sendMessage(msg.to,"ᴀʟʟ ᴀᴅᴅ ᴄʟᴇᴀʀ")
             elif msg.text in ["Add status"]:
-                md = "╔════════════════════\n╠SANGE BOT\n╠════════════════════\n"
+                md = "╔════════════════════\n╠SIKONTOL\n╠════════════════════\n"
                 if wait["Invi"] == True: md+="╠➣Invite : ✔\n"
                 else:md+="╠➣Invite : ❌\n"
                 if wait["atarget"] == True: md+="╠➣ᴀᴅᴅ ʙᴀɴɴᴇᴅ : ✔\n"
@@ -1591,7 +1591,7 @@ def dhenzaBot(op):
                 else:md+="╠➣ɢᴇᴛ ᴍɪᴅ : ❌\n╠════════════════════\n╠➣line://ti/p/~minumsususapi\n╠➣SEDOT DOSA\n╚════════════════════"
                 dz.sendMessage(msg.to,md)
             elif msg.text in ["Status"]:
-                md = "╔════════════════════\n╠SANGE BOT\n╠════════════════════\n"
+                md = "╔════════════════════\n╠SIKONTOL\n╠════════════════════\n"
                 if wait["Autojoin"] == True: md+="╠➣ᴀᴜᴛᴏᴊᴏɪɴ : ✔\n"
                 else:md+="╠➣ᴀᴜᴛᴏᴊᴏɪɴ : ❌\n"
                 if resp["Tag1"] == True: md+="╠➣ ᴍᴇɴᴛɪᴏɴ1 : ✔\n"
